@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Gustavslow - Previsão do tempo</title>
+  </head>
+  <body class="body">
+    <div class="container">
+      <input placeholder="Digite o nome da cidade" class="input-city" />
+      <button class="button-search" onclick="ButtonClick()">
+        <img
+          src="https://www.svgrepo.com/show/488200/find.svg"
+          alt="Busca"
+          class="img-search"
+        />
+      </button>
+      <div class="medium-box">
+        <h2 class="city">Tempo em...</h2>
+
+        <p class="temp">A conferir</p>
+
+        <div class="small-box">
+          <img
+            alt="icone-do-tempo"
+            src="https://openweathermap.org/img/wn/04n.png"
+            class="img-previsao"
+          />
+          <p class="wrt-previsao">A conferir</p>
+        </div>
+
+        <p class="humidity">Umidade: 00%</p>
+      </div>
+    </div>
+  </body>
+</html>
