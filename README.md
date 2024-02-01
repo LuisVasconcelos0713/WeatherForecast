@@ -1,0 +1,1 @@
+I've created a weather forecast website using the Fetch API. Simply enter the city name to instantly get information on temperature, humidity, and weather conditions. An efficient and user-friendly solution for quick access to weather conditions.
